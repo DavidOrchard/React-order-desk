@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Getting start with React Order Desk
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Simulate ![Order Desk](./public/interview-example.gif)
+
+Constraints are ![constraints](./public/instructions.png)
+
+[CodeSandbox](https://codesandbox.io/s/broken-darkness-7i8r9?file=/src/App.tsx)
 
 ## Available Scripts
 

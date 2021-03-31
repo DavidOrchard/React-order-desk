@@ -1,0 +1,66 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: black;
+}
+
+:root {
+  --red: rgb(250, 103, 45);
+  --green: rgb(45, 175, 52);
+}
+
+.button {
+  min-width: 200px;
+  height: 50px;
+  font-size: 20px;
+  color: white;
+}
+
+.fadeIn {
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.buy.button {
+  background-color: var(--green);
+}
+
+.sell.button {
+  background-color: var(--red);
+}
+
+.quoteItem {
+  color: white;
+}
+
+.quoteItem.sell {
+  color: var(--red);
+}
+
+.quoteItem.buy {
+  color: var(--green);
+}
+
+.quoteContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.quotesContainer {
+  width: 100%;
+  align-items:center;
+  margin: 0 auto;
+}
+
+.quoteItem {
+  padding: 2px 16px;
+  width: 50px;
+}
